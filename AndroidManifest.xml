@@ -4502,6 +4502,24 @@
             </intent-filter>
         </activity>
 
+        <!-- JARVIS Settings -->
+        <activity android:name=".Settings$JarvisSettingsActivity"
+            android:label="@string/jarvis_settings_title"
+            android:icon="@drawable/ic_jarvis_settings_icon"
+            android:parentActivityName="com.android.settings"
+            android:exported="true">
+            <intent-filter android:priority="1">
+                <action android:name="com.android.settings.JARVIS_SETTINGS" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="com.android.settings.SHORTCUT" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                android:value="com.jarvis.settings.JarvisSettings" />
+        </activity>
+
         <!-- This is the longest AndroidManifest.xml ever. -->
     </application>
 </manifest>
