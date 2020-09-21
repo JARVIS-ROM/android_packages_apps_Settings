@@ -25,4 +25,8 @@
     <string name="system_black_theme_title">Use Black theme</string>
     <string name="system_black_theme_summary">Force black background colors</string>
 
+    <!-- JARVIS Settings --> 
+    <string name="jarvis_settings_title">JARVIS Settings</string>
+    <string name="jarvis_settings_summary">Extra Customizations</string>
+
 </resources>
