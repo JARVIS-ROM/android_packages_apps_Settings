@@ -46,4 +46,9 @@
 
     <!-- Sound: Title for the option managing ring volume. When unlinked [CHAR LIMIT=30] -->
     <string name="ring_volume_unlinked_option_title">Ring volume</string>
+
+    <!-- Default getTimeSpentInApp string for Wellbeing to display. [CHAR LIMIT=NONE] --> 
+    <string name="duration_less_than_one_minute">Less than 1 Minute</string> 
+    <!-- Summary for Wellbeing screen time usage. [CHAR LIMIT=NONE] -->
+    <string name="screen_time_summary_usage_today">%1$s today</string>
 </resources>
