@@ -40,7 +40,7 @@
         settings:highlightableMenuKey="@string/menu_key_connected_devices"
         settings:controller="com.android.settings.connecteddevice.TopLevelConnectedDevicesPreferenceController"/>
 
-    <Preference
+    <com.android.settings.widget.HomepagePreference
         android:key="top_level_jarvis_settings"
         android:title="@string/jarvis_settings_title"
         android:summary="@string/jarvis_settings_summary"
